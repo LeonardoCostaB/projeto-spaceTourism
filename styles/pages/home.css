@@ -1,0 +1,235 @@
+body {
+  background-image: url('/assets/home/background-home-desktop.jpg');
+  background-repeat: no-repeat;
+}
+
+
+/*-------------------
+*Content-home
+*/
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-------------------
+*Section-space  
+*/
+
+.space {
+  width: 75%;
+}
+
+.space h1 {
+  text-align: start;
+
+  font-family: var(--font-condensed);
+  font-weight: 400;
+
+}
+
+.space h1 span {
+  font-size: 15rem;
+  font-family: var(--font-stars);
+}
+
+
+/*---------------------
+*Section-explore
+*/
+
+.explore {
+  display: flex;
+  justify-content: right;
+
+}
+
+.button-explore a {
+  position: relative;
+
+  width: 23rem;
+  height: 23rem;
+
+  clip-path: circle();
+
+  background-color: var(--color-yellow-light);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 3.2rem;
+  font-family: var(--font-stars);
+
+  color: black;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  z-index: 1;
+}
+
+.button-explore a:hover {
+  height: 21rem;
+  width: 21rem;
+
+  transition: all 0.5s;
+}
+
+.button-explore .hover {
+  width: 33rem;
+  height: 33rem;
+
+  clip-path: circle();
+
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-explore .hover::before {
+  position: absolute;
+
+  content: " ";
+
+  width: 0;
+  height: 0;
+
+  clip-path: circle();
+
+
+  z-index: 0;
+}
+
+.button-explore .hover:hover::before {
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(255, 255, 255, 0.212);
+
+  clip-path: circle();
+
+  transition: all 1.5s;
+}
+
+@media(max-width: 1008px){
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 9.5rem
+  }
+
+  .space h1, p {
+    text-align: center;
+  }
+
+  .space h1 span {
+    text-align: center;
+    font-size: 12rem;
+  }
+
+  .button-explore a {
+    width: 20rem;
+    height: 20rem;
+  }
+
+}
+
+@media(max-width: 768px){
+  body {
+    background-image: url('/assets/home/background-home-tablet.jpg');
+  }
+
+  .space h1 {
+    font-size: 2rem;
+
+    padding-bottom: 1.5rem;
+  }
+
+  .space spam {
+    padding-top: 1rem;
+  }
+
+  .space p {
+    font-size: 1.6rem;
+  }
+
+  .explore {
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5rem;
+  }
+}
+
+@media(max-width: 641px){
+  .space h1 span {
+  font-size: 10rem;
+}
+}
+
+@media(max-width: 640px){
+  body {
+    background-size: cover;
+    background-clip: content-box;
+  }
+
+  .container .home {
+    margin-top: 5rem;
+  }
+
+  .home .space {
+    width: 100%;
+
+    display: grid;
+    gap: 1.6rem;
+
+  }
+
+  .home .space h1 {
+    font-size: 1.6rem;
+
+    display: grid;
+    gap: 1.6rem;
+  }
+
+  .home .space h1 span {
+    font-size: 8rem;
+  }
+
+  .home .space p {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+  }
+
+  section .explore {
+    padding-top: 8.1rem;
+  }
+
+  .explore .button-explore a {
+    width: 15rem;
+    height: 15rem;
+
+    font-size: 2rem;
+  }
+
+  .button-explore .hover:hover::before {
+    width: 70%;
+    height: 70%;
+
+    transition: all 1s;
+  }
+
+  .button-explore .hover {
+    height: 32rem;
+  }
+}

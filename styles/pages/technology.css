@@ -1,0 +1,235 @@
+body {
+  background-image: url('/assets/technology/background-technology-desktop.jpg');
+  background-repeat: no-repeat;
+}
+
+.title {
+  padding: 5rem 0 5rem 0;
+}
+
+div.containerr {
+  margin-left: 9rem;
+}
+
+.technology{
+  display: grid;
+  grid-template-columns: 1fr 33%;
+  grid-template-rows: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.spaceship.hidde {
+  visibility: hidden;
+  display: none;
+  opacity: 0;
+}
+
+.spaceship h1 {
+  font-size: 5.1rem;
+  font-weight: 400;
+  font-family: var(--font-stars);
+
+  padding-bottom: 3rem;
+
+  text-transform: uppercase;
+
+}
+
+.spaceship h1 span {
+  font-size: 1.6rem;
+  
+  opacity: .5;
+}
+
+.photo-spaceship {
+ width: 100%;
+}
+
+.photo-spaceship img{
+  width: 100%;
+ }
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+
+  width: 70%;
+}
+
+.menu {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-auto-rows: 11rem;
+}
+
+.button {
+  height: 8rem;
+  width: 8rem;
+
+  color: #FFFFFF;
+
+  border: .1rem solid var(--color-yellow-light);
+
+  border-radius: 5rem;
+
+  opacity: .25;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  border: .1rem solid #FFFFFF;
+  background-color: #FFFFFF;
+  color: black;
+  opacity: 1;
+}
+
+.button.active {
+  border: .1rem solid #FFFFFF;
+  background-color: #FFFFFF;
+  color: black;
+  opacity: 1;
+}
+
+@media(max-width: 1130px){
+
+  .display .spaceship h1 {
+    font-size: 4rem;
+  }
+}
+
+@media(max-width: 1040px){
+  header .nav-bar {
+    width: 50.9%;
+  }
+
+}
+
+@media(max-width: 1008px){
+  body {
+    background-image: url('/assets/technology/background-technology-tablet.jpg');
+    background-size: 111rem;
+  }
+
+  div.containerr {
+    margin: 0
+  }
+
+  .technology {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .photo-spaceship {
+    margin-bottom: 4rem;
+  }
+
+  .display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    margin: auto;
+  }
+
+  .display .spaceship {
+    text-align: center;
+  }
+
+  .display .spaceship p {
+    text-align: center;
+
+    padding-bottom: 5rem;
+  }
+
+  .menu {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+@media(max-width: 768px){
+  body {
+    background-size: 83.9rem;
+  }
+
+  .title {
+    padding: 4rem 0 6rem 0;
+  }
+
+
+  header .nav-bar {
+    width: 70%;
+  }
+
+  .display .spaceship h1{
+    font-size: 3.2rem;
+  }
+
+  .display .spaceship h1 span{
+    font-size: 1.6rem;
+  }
+
+  .display .spaceship p{
+    font-size: 1.6rem;
+  }
+  .button {
+    height: 6rem;
+    width: 6rem;
+  }
+}
+
+@media(max-width: 641px){
+  header .nav-bar {
+    width: 83%;
+  }
+
+  .title {
+    padding-left: 6rem;
+  }
+}
+
+@media(max-width: 640px){
+  header .nav-bar {
+    display: none;
+  }
+
+  .containerr .title {
+    padding-left: 0;
+  }
+
+  .containerr .title h3 {
+    text-align: center;
+
+    font-size: 1.6rem;
+  }
+
+  .menu .button {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .display .spaceship h1 {
+    font-size: 2.4rem;
+  }
+
+  .display .spaceship h1 span {
+    font-size: 1.4rem;
+  }
+
+  .display .spaceship p{
+    font-size: 1.5rem;
+  }
+}
