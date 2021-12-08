@@ -47,7 +47,7 @@ const destination= {
         headerEuropa.classList.add('active')
         headerMoon.classList.remove('active')
         headerMars.classList.remove('active')
-        headerEuropa.classList.remove('active')
+        headerTitan.classList.remove('active')
 
         document.querySelector('div.space-stars#europa').classList.remove('hidde')
         document.querySelector('div.space-stars#moon').classList.add('hidde')
