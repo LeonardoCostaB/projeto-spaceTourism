@@ -1,5 +1,5 @@
 body {
-  background-image: url('/assets/crew/background-crew-desktop.jpg');
+  background-image: url('./assets/crew/background-crew-desktop.jpg');
   background-repeat: no-repeat;
   
 }
@@ -88,7 +88,7 @@ div.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swi
 
 @media(max-width: 1008px){
   body {
-    background-image: url('/assets/crew/background-crew-tablet.jpg');
+    background-image: url('./assets/crew/background-crew-tablet.jpg');
     background-size: 111rem;
   }
 

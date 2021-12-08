@@ -1,5 +1,5 @@
 body {
-  background-image: url('/assets/technology/background-technology-desktop.jpg');
+  background-image: url('./assets/technology/background-technology-desktop.jpg');
   background-repeat: no-repeat;
 }
 
@@ -115,7 +115,7 @@ div.containerr {
 
 @media(max-width: 1008px){
   body {
-    background-image: url('/assets/technology/background-technology-tablet.jpg');
+    background-image: url('./assets/technology/background-technology-tablet.jpg');
     background-size: 111rem;
   }
 

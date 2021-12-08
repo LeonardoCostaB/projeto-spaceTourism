@@ -15,7 +15,7 @@ const technology = {
       document.querySelector('.spaceship#spaceport').classList.add('hidde')
       document.querySelector('.spaceship#space-capsule').classList.add('hidde')
     
-      image.setAttribute('src', '/assets/technology/image-launch-vehicle-portrait.jpg')
+      image.setAttribute('src', './assets/technology/image-launch-vehicle-portrait.jpg')
     })
     
     childTwo.addEventListener('click', () => {
@@ -27,7 +27,7 @@ const technology = {
       document.querySelector('.spaceship#lauch-vehicle').classList.add('hidde')
       document.querySelector('.spaceship#space-capsule').classList.add('hidde')
     
-      image.setAttribute('src', '/assets/technology/image-spaceport-portrait.jpg')
+      image.setAttribute('src', './assets/technology/image-spaceport-portrait.jpg')
     })
     
     childThree.addEventListener('click', () => {
@@ -39,7 +39,7 @@ const technology = {
       document.querySelector('.spaceship#lauch-vehicle').classList.add('hidde')
       document.querySelector('.spaceship#spaceport').classList.add('hidde')
     
-      image.setAttribute('src', '/assets/technology/image-space-capsule-portrait.jpg')
+      image.setAttribute('src', './assets/technology/image-space-capsule-portrait.jpg')
     })
   },
 
@@ -64,7 +64,7 @@ const technology = {
       
         
       
-        image.setAttribute('srcset', '/assets/technology/image-launch-vehicle-landscape.jpg')
+        image.setAttribute('srcset', './assets/technology/image-launch-vehicle-landscape.jpg')
       })
       
       childTwo.addEventListener('click', () => {
@@ -76,7 +76,7 @@ const technology = {
         document.querySelector('.spaceship#lauch-vehicle').classList.add('hidde')
         document.querySelector('.spaceship#space-capsule').classList.add('hidde')
       
-        image.setAttribute('srcset', '/assets/technology/image-spaceport-landscape.jpg')
+        image.setAttribute('srcset', './assets/technology/image-spaceport-landscape.jpg')
       })
       
       childThree.addEventListener('click', () => {
@@ -88,7 +88,7 @@ const technology = {
         document.querySelector('.spaceship#lauch-vehicle').classList.add('hidde')
         document.querySelector('.spaceship#spaceport').classList.add('hidde')
       
-        image.setAttribute('srcset', '/assets/technology/image-space-capsule-landscape.jpg')
+        image.setAttribute('srcset', './assets/technology/image-space-capsule-landscape.jpg')
       })
     }
 

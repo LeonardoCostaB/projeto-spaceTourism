@@ -19,7 +19,7 @@ const destination= {
         document.querySelector('div.space-stars#europa').classList.add('hidde')
         document.querySelector('div.space-stars#titan').classList.add('hidde')   
 
-        image.setAttribute('src', '/assets/destination/image-moon.webp')
+        image.setAttribute('src', './assets/destination/image-moon.webp')
 
         event.preventDefault()
       })
@@ -36,7 +36,7 @@ const destination= {
         document.querySelector('div.space-stars#europa').classList.add('hidde')
         document.querySelector('div.space-stars#titan').classList.add('hidde')
 
-        image.setAttribute('src', '/assets/destination/image-mars.webp')
+        image.setAttribute('src', './assets/destination/image-mars.webp')
 
         event.preventDefault()
         
@@ -54,7 +54,7 @@ const destination= {
         document.querySelector('div.space-stars#mars').classList.add('hidde')
         document.querySelector('div.space-stars#titan').classList.add('hidde')
 
-        image.setAttribute('src', '/assets/destination/image-europa.webp')
+        image.setAttribute('src', './assets/destination/image-europa.webp')
 
         event.preventDefault()
           
@@ -72,7 +72,7 @@ const destination= {
         document.querySelector('div.space-stars#mars').classList.add('hidde')
         document.querySelector('div.space-stars#europa').classList.add('hidde')
 
-        image.setAttribute('src', '/assets/destination/image-titan.webp')
+        image.setAttribute('src', './assets/destination/image-titan.webp')
 
         event.preventDefault()
           

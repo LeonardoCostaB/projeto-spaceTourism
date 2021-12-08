@@ -22,19 +22,19 @@ const swiper = {
     const slideFor = document.querySelector('div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal> .swiper-pagination-bullet:nth-child(4)')
 
     slideOne.addEventListener('click', () => {
-      image.setAttribute('src', '/assets/crew/image-douglas-hurley-370.webp')
+      image.setAttribute('src', './assets/crew/image-douglas-hurley-370.webp')
     })
 
     slideTwo.addEventListener('click', () => {
-      image.setAttribute('src', '/assets/crew/image-mark-shuttleworth-330.webp')
+      image.setAttribute('src', './assets/crew/image-mark-shuttleworth-330.webp')
     })
 
     slideTree.addEventListener('click', () => {
-      image.setAttribute('src', '/assets/crew/image-victor-glover-410.webp')
+      image.setAttribute('src', './assets/crew/image-victor-glover-410.webp')
     })
 
     slideFor.addEventListener('click', () => {
-      image.setAttribute('src', '/assets/crew/image-anousheh-ansari-470.webp')
+      image.setAttribute('src', './assets/crew/image-anousheh-ansari-470.webp')
     })
   }
 }

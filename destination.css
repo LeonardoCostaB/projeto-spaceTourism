@@ -1,5 +1,5 @@
 body {
-  background-image: url('/assets/destination/background-destination-desktop.jpg');
+  background-image: url('./assets/destination/background-destination-desktop.jpg');
 
   background-repeat: no-repeat;
 }
@@ -169,7 +169,7 @@ body {
 
 @media(max-width: 1008px){
   body {
-    background-image: url('/assets/destination/background-destination-tablet.jpg');
+    background-image: url('./assets/destination/background-destination-tablet.jpg');
     background-size: 111rem;
   }
 
