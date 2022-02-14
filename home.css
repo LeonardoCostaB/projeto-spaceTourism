@@ -1,6 +1,8 @@
 body {
   background-image: url('./assets/home/background-home-desktop.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
 }
 
 
@@ -172,6 +174,10 @@ body {
 }
 
 @media(max-width: 641px){
+  body {
+    background-image: url('/assets/home/background-home-mobile.jpg');
+  }
+
   .space h1 span {
   font-size: 10rem;
 }
@@ -191,8 +197,6 @@ body {
     width: 100%;
 
     display: grid;
-    gap: 1.6rem;
-
   }
 
   .home .space h1 {
@@ -211,8 +215,8 @@ body {
     font-size: 1.5rem;
   }
 
-  section .explore {
-    padding-top: 8.1rem;
+  .explore .button-explore {
+    margin-top: 5rem;
   }
 
   .explore .button-explore a {
@@ -230,6 +234,8 @@ body {
   }
 
   .button-explore .hover {
-    height: 32rem;
+    height: 0rem;
+
+    clip-path: none;
   }
 }

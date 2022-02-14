@@ -1,7 +1,8 @@
 body {
   background-image: url('./assets/destination/background-destination-desktop.jpg');
-
   background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
 }
 
 /*----------------
@@ -170,7 +171,7 @@ body {
 @media(max-width: 1008px){
   body {
     background-image: url('./assets/destination/background-destination-tablet.jpg');
-    background-size: 111rem;
+    background-size: cover;
   }
 
   .destination {
@@ -211,7 +212,7 @@ body {
 
 @media(max-width: 768px){
   body {
-    background-size: 83.9rem;
+    background-size: cover;
   }
 
   .title {
@@ -237,7 +238,8 @@ body {
 
 @media(max-width: 640px){
   body {
-    background-size: 86.6rem;
+    background-image: url('/assets/destination/background-destination-mobile.jpg');
+    background-size: 53rem;
   }
 
   .container h3 {

@@ -1,6 +1,8 @@
 body {
   background-image: url('./assets/technology/background-technology-desktop.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
 }
 
 .title {
@@ -116,7 +118,7 @@ div.containerr {
 @media(max-width: 1008px){
   body {
     background-image: url('./assets/technology/background-technology-tablet.jpg');
-    background-size: 111rem;
+    background-size: cover;
   }
 
   div.containerr {
@@ -162,7 +164,7 @@ div.containerr {
 
 @media(max-width: 768px){
   body {
-    background-size: 83.9rem;
+    background-size: cover;
   }
 
   .title {
@@ -192,6 +194,11 @@ div.containerr {
 }
 
 @media(max-width: 641px){
+  body {
+    background-image: url('/assets/technology/background-technology-mobile.jpg');
+    background-size: 50rem;
+  }
+
   header .nav-bar {
     width: 83%;
   }
