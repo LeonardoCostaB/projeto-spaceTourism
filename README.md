@@ -5,6 +5,8 @@
  
  Utilizei JavaScript, Css e Html para o desenvolvimento.
  
+ Quando projetei organizei o css, o javaScript e o html em pastas, mas o gitHub pages não leu os arquivos e a única maneira foi excluindo as pastas.
+ 
  Foi de um enorme aprendizado esse projeto e estou muito satisfeito com o resultado.
 
 https://leonardocostab.github.io/projeto-spaceTourism/
