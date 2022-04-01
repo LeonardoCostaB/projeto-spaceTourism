@@ -238,8 +238,8 @@ body {
 
 @media(max-width: 640px){
   body {
-    background-image: url('/assets/destination/background-destination-mobile.jpg');
-    background-size: 53rem;
+    background-image: url('./assets/destination/background-destination-mobile.jpg');
+    background-size: cover;
   }
 
   .container h3 {

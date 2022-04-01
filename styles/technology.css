@@ -195,8 +195,8 @@ div.containerr {
 
 @media(max-width: 641px){
   body {
-    background-image: url('/assets/technology/background-technology-mobile.jpg');
-    background-size: 50rem;
+    background-image: url('./assets/technology/background-technology-mobile.jpg');
+    background-size: cover;
   }
 
   header .nav-bar {
