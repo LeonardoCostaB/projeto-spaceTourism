@@ -1,5 +1,5 @@
 body {
-  background-image: url('./assets/home/background-home-desktop.jpg');
+  background-image: url('../assets/home/background-home-desktop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
@@ -148,7 +148,7 @@ body {
 
 @media(max-width: 768px){
   body {
-    background-image: url('./assets/home/background-home-tablet.jpg');
+    background-image: url('../assets/home/background-home-tablet.jpg');
   }
 
   .space h1 {
@@ -175,7 +175,7 @@ body {
 
 @media(max-width: 641px){
   body {
-    background-image: url('./assets/home/background-home-mobile.jpg');
+    background-image: url('../assets/home/background-home-mobile.jpg');
   }
 
   .space h1 span {
